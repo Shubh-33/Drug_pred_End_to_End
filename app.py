@@ -1,6 +1,7 @@
 import streamlit as st  
 import pickle 
 import numpy as np 
+import sklearn
 
 # Loading the model from the storage to the code
 with open('svc_model.pkl', 'rb') as f:
